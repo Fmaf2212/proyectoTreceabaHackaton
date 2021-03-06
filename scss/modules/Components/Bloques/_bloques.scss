@@ -1,0 +1,78 @@
+.bloque{
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 30px;
+  gap: 30px;
+
+  &__article{
+
+    border: 1px solid;
+    position: relative;
+
+    &__options{
+      position: absolute;
+      display: none;
+      justify-content: space-between;
+      padding: 20px;
+      width: 100%;
+
+
+      // img{
+      //   cursor: pointer;
+      // }
+
+      .borrar-curso{
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+
+    :hover > &__options{
+      display: flex;
+    }
+
+    &__img{
+      position: relative;
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 50%;
+      margin: 40px auto;
+
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    &__mainInfo{
+
+      .phoneRace{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+
+        .phone{
+          border-right: 2px solid;
+          padding-right: 20px;
+        }
+      }
+
+      .country{
+        margin-top: 10px;
+      }
+
+    }
+
+    &__moreInfo{
+      margin: 20px;
+      text-align: justify;
+      text-align-last: center;
+    }
+  }
+
+}

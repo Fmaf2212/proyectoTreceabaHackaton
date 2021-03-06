@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackaton Trece</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="img/Dog_Man_logo.png" alt="">
+        <nav class="header__nav">
+            <ul>
+                <li><a href="#miModal" class="agregarCarrito">Agregar Mascota</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="miModal" class="modal">
+        <div class="modal-contenido">
+            <h2 class="textCenter">Agregar Mascota</h2>
+            <form action="ejemplo.php" method="get">
+                <div class="inputs">
+                    <input placeholder="Nombre" type="text" name="nombre">
+                    <input placeholder="Apellido" type="text" name="nacido">
+                    <input placeholder="Raza" type="text" name="nacido">
+                    <input placeholder="Telefono" type="text" name="nacido">
+                    <input placeholder="Pais" type="text" name="nacido">
+                    <input placeholder="Url de fotografia" type="text" name="nacido">
+                </div>
+                <textarea name="comentarios" rows="10" cols="40">Sobre él/ella</textarea>
+                <div class="buttons">
+                    <input type="submit" value="Aceptar">
+                    <a href="#">Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- <div class="bloque">
+        <article class="bloque__article" data-id="8">
+            <a href="#" class="borrar-curso" data-id="8">X</a>
+            <div class="bloque__article__options">
+                <img class="edit-dog" src="https://www.flaticon.es/svg/vstatic/svg/565/565722.svg?token=exp=1615043499~hmac=219be3821c1ba22aa5d81739de23bafb" alt="" width="20">
+                    <img class="delete-dog" data-id="8" src="https://www.flaticon.com/svg/vstatic/svg/3096/3096687.svg?token=exp=1615043534~hmac=e6939da8ca9b5cf3b81c4cc07f1567d7" alt="" width="20">
+            </div>
+            <div class="bloque__article__img">
+                <img src="https://picsum.photos/id/237/200/300" alt="">
+            </div>
+            <div class="bloque__article__mainInfo">
+                <p class="textCenter">Nombre</p>
+                <div class="phoneRace">
+                    <p class="phone">Telefono</p>
+                    <p>Raza</p>
+                </div>
+                <p class="textCenter country">País</p>
+            </div>
+            <div class="bloque__article__moreInfo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore quos, autem consequuntur dolores, optio illum ea maiores doloremque amet nisi possimus!</p>
+            </div>
+        </article>
+        <img src="img/Dog_Man_logo.png">
+    </div> -->
+    <main class="bloque" id="infoDogs">
+        <!-- <article class="bloque__article" data-id="8">
+            <div class="bloque__article__options">
+                <img src="https://www.flaticon.es/svg/vstatic/svg/565/565722.svg?token=exp=1615043499~hmac=219be3821c1ba22aa5d81739de23bafb" alt="" width="20">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/3096/3096687.svg?token=exp=1615043534~hmac=e6939da8ca9b5cf3b81c4cc07f1567d7" alt="" width="20">
+            </div>
+            <div class="bloque__article__img">
+                <img src="https://picsum.photos/id/237/200/300" alt="">
+            </div>
+            <div class="bloque__article__mainInfo">
+                <p class="textCenter">Nombre</p>
+                <div class="phoneRace">
+                    <p class="phone">Telefono</p>
+                    <p>Raza</p>
+                </div>
+                <p class="textCenter country">País</p>
+            </div>
+            <div class="bloque__article__moreInfo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore quos, autem consequuntur dolores, optio illum ea maiores doloremque amet nisi possimus!</p>
+            </div>
+        </article> -->
+        <!-- <article class="bloque__article">
+            <div class="bloque__article__options">
+                <img src="https://www.flaticon.es/svg/vstatic/svg/565/565722.svg?token=exp=1615043499~hmac=219be3821c1ba22aa5d81739de23bafb" alt="" width="20">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/3096/3096687.svg?token=exp=1615043534~hmac=e6939da8ca9b5cf3b81c4cc07f1567d7" alt="" width="20">
+            </div>
+            <div class="bloque__article__img">
+                <img src="https://picsum.photos/id/237/200/300" alt="">
+            </div>
+            <div class="bloque__article__mainInfo">
+                <p class="textCenter">Nombre</p>
+                <div class="phoneRace">
+                    <p class="phone">Telefono</p>
+                    <p>Raza</p>
+                </div>
+                <p class="textCenter country">País</p>
+            </div>
+            <div class="bloque__article__moreInfo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore quos, autem consequuntur dolores, optio illum ea maiores doloremque amet nisi possimus!</p>
+            </div>
+        </article>
+        <article class="bloque__article">
+            <div class="bloque__article__options">
+                <img src="https://www.flaticon.es/svg/vstatic/svg/565/565722.svg?token=exp=1615043499~hmac=219be3821c1ba22aa5d81739de23bafb" alt="" width="20">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/3096/3096687.svg?token=exp=1615043534~hmac=e6939da8ca9b5cf3b81c4cc07f1567d7" alt="" width="20">
+            </div>
+            <div class="bloque__article__img">
+                <img src="https://picsum.photos/id/237/200/300" alt="">
+            </div>
+            <div class="bloque__article__mainInfo">
+                <p class="textCenter">Nombre</p>
+                <div class="phoneRace">
+                    <p class="phone">Telefono</p>
+                    <p>Raza</p>
+                </div>
+                <p class="textCenter country">País</p>
+            </div>
+            <div class="bloque__article__moreInfo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore quos, autem consequuntur dolores, optio illum ea maiores doloremque amet nisi possimus!</p>
+            </div>
+        </article>
+        <article class="bloque__article">
+            <div class="bloque__article__options">
+                <img src="https://www.flaticon.es/svg/vstatic/svg/565/565722.svg?token=exp=1615043499~hmac=219be3821c1ba22aa5d81739de23bafb" alt="" width="20">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/3096/3096687.svg?token=exp=1615043534~hmac=e6939da8ca9b5cf3b81c4cc07f1567d7" alt="" width="20">
+            </div>
+            <div class="bloque__article__img">
+                <img src="https://picsum.photos/id/237/200/300" alt="">
+            </div>
+            <div class="bloque__article__mainInfo">
+                <p class="textCenter">Nombre</p>
+                <div class="phoneRace">
+                    <p class="phone">Telefono</p>
+                    <p>Raza</p>
+                </div>
+                <p class="textCenter country">País</p>
+            </div>
+            <div class="bloque__article__moreInfo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore quos, autem consequuntur dolores, optio illum ea maiores doloremque amet nisi possimus!</p>
+            </div>
+        </article>
+        <article class="bloque__article">
+            <div class="bloque__article__options">
+                <img src="https://www.flaticon.es/svg/vstatic/svg/565/565722.svg?token=exp=1615043499~hmac=219be3821c1ba22aa5d81739de23bafb" alt="" width="20">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/3096/3096687.svg?token=exp=1615043534~hmac=e6939da8ca9b5cf3b81c4cc07f1567d7" alt="" width="20">
+            </div>
+            <div class="bloque__article__img">
+                <img src="https://picsum.photos/id/237/200/300" alt="">
+            </div>
+            <div class="bloque__article__mainInfo">
+                <p class="textCenter">Nombre</p>
+                <div class="phoneRace">
+                    <p class="phone">Telefono</p>
+                    <p>Raza</p>
+                </div>
+                <p class="textCenter country">País</p>
+            </div>
+            <div class="bloque__article__moreInfo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore quos, autem consequuntur dolores, optio illum ea maiores doloremque amet nisi possimus!</p>
+            </div>
+        </article>
+        <article class="bloque__article">
+            <div class="bloque__article__options">
+                <img src="https://www.flaticon.es/svg/vstatic/svg/565/565722.svg?token=exp=1615043499~hmac=219be3821c1ba22aa5d81739de23bafb" alt="" width="20">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/3096/3096687.svg?token=exp=1615043534~hmac=e6939da8ca9b5cf3b81c4cc07f1567d7" alt="" width="20">
+            </div>
+            <div class="bloque__article__img">
+                <img src="https://picsum.photos/id/237/200/300" alt="">
+            </div>
+            <div class="bloque__article__mainInfo">
+                <p class="textCenter">Nombre</p>
+                <div class="phoneRace">
+                    <p class="phone">Telefono</p>
+                    <p>Raza</p>
+                </div>
+                <p class="textCenter country">País</p>
+            </div>
+            <div class="bloque__article__moreInfo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore quos, autem consequuntur dolores, optio illum ea maiores doloremque amet nisi possimus!</p>
+            </div>
+        </article>
+        <article class="bloque__article">
+            <div class="bloque__article__options">
+                <img src="https://www.flaticon.es/svg/vstatic/svg/565/565722.svg?token=exp=1615043499~hmac=219be3821c1ba22aa5d81739de23bafb" alt="" width="20">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/3096/3096687.svg?token=exp=1615043534~hmac=e6939da8ca9b5cf3b81c4cc07f1567d7" alt="" width="20">
+            </div>
+            <div class="bloque__article__img">
+                <img src="https://picsum.photos/id/237/200/300" alt="">
+            </div>
+            <div class="bloque__article__mainInfo">
+                <p class="textCenter">Nombre</p>
+                <div class="phoneRace">
+                    <p class="phone">Telefono</p>
+                    <p>Raza</p>
+                </div>
+                <p class="textCenter country">País</p>
+            </div>
+            <div class="bloque__article__moreInfo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore quos, autem consequuntur dolores, optio illum ea maiores doloremque amet nisi possimus!</p>
+            </div>
+        </article>
+        <article class="bloque__article">
+            <div class="bloque__article__options">
+                <a href="#" class="edit-dog"><img src="https://www.flaticon.es/svg/vstatic/svg/565/565722.svg?token=exp=1615043499~hmac=219be3821c1ba22aa5d81739de23bafb" alt="" width="20"></a>
+                <a href="#" class="delete-dog" data-id="8"><img src="https://www.flaticon.com/svg/vstatic/svg/3096/3096687.svg?token=exp=1615043534~hmac=e6939da8ca9b5cf3b81c4cc07f1567d7" alt="" width="20"></a>
+            </div>
+            <div class="bloque__article__img">
+                <img src="https://picsum.photos/id/237/200/300" alt="">
+            </div>
+            <div class="bloque__article__mainInfo">
+                <p class="textCenter">Nombre</p>
+                <div class="phoneRace">
+                    <p class="phone">Telefono</p>
+                    <p>Raza</p>
+                </div>
+                <p class="textCenter country">País</p>
+            </div>
+            <div class="bloque__article__moreInfo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore quos, autem consequuntur dolores, optio illum ea maiores doloremque amet nisi possimus!</p>
+            </div>
+        </article> -->
+    </main>
+
+    <script src="js/probando.js"></script>
+</body>
+</html>

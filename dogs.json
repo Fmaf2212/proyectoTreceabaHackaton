@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "nombre":"Fido",
+        "apellido":"Perez",
+        "raza":"chitzu",
+        "telefono":"985458745",
+        "pais":"Peru",
+        "urlPhoto":"https://picsum.photos/id/237/200/300",
+        "sobreEl":"Es divertido."
+    },
+    {
+        "id": 2,
+        "nombre":"Lucas",
+        "apellido":"Garcia",
+        "raza":"chitzu",
+        "telefono":"985458745",
+        "pais":"Peru",
+        "urlPhoto":"https://picsum.photos/id/237/200/300",
+        "sobreEl":"Es juguetón."
+    },
+    {
+        "id": 3,
+        "nombre":"Boby",
+        "apellido":"Suarez",
+        "raza":"chitzu",
+        "telefono":"985458745",
+        "pais":"Peru",
+        "urlPhoto":"https://picsum.photos/id/237/200/300",
+        "sobreEl":"Es comelon."
+    },
+    {
+        "id": 4,
+        "nombre":"Laica",
+        "apellido":"Mendoza",
+        "raza":"chitzu",
+        "telefono":"985458745",
+        "pais":"Peru",
+        "urlPhoto":"https://picsum.photos/id/237/200/300",
+        "sobreEl":"Es traviesa."
+    },
+    {
+        "id": 5,
+        "nombre":"Duke",
+        "apellido":"Albarracin",
+        "raza":"chitzu",
+        "telefono":"985458745",
+        "pais":"Peru",
+        "urlPhoto":"https://picsum.photos/id/237/200/300",
+        "sobreEl":"Es timido."
+    },
+    {
+        "id": 6,
+        "nombre":"Melmar",
+        "apellido":"Tavarez",
+        "raza":"chitzu",
+        "telefono":"985458745",
+        "pais":"Peru",
+        "urlPhoto":"https://picsum.photos/id/237/200/300",
+        "sobreEl":"Es travieso."
+    },
+    {
+        "id": 7,
+        "nombre":"Pluto",
+        "apellido":"Rojas",
+        "raza":"chitzu",
+        "telefono":"985458745",
+        "pais":"Peru",
+        "urlPhoto":"https://picsum.photos/id/237/200/300",
+        "sobreEl":"Es jugueton."
+    },
+    {
+        "id": 8,
+        "nombre":"Taylor",
+        "apellido":"Jimenez",
+        "raza":"chitzu",
+        "telefono":"985458745",
+        "pais":"Peru",
+        "urlPhoto":"https://picsum.photos/id/237/200/300",
+        "sobreEl":"Es divertido."
+    }
+]

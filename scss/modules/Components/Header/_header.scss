@@ -1,0 +1,29 @@
+.header{
+  
+  background: yellow;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+
+  &__nav{
+
+    display: flex;
+    align-items: center;
+
+    ul li{
+      list-style: none;
+    }
+
+    ul li a{
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    ul li a:hover{
+      text-decoration: underline;
+    }
+  }
+
+}
+
+
