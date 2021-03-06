@@ -2,8 +2,6 @@ cargarDatosOnload();
 
 function cargarDatosOnload(e) {
 
-    // e.preventDefault();
-
     const xhr = new XMLHttpRequest();
 
     xhr.open('GET', 'dogs.json', true);
@@ -44,13 +42,11 @@ function cargarDatosOnload(e) {
 
 }
 
-//const listaCursos = document.querySelector(".bloque");
 
 const carrito = document.querySelector(".bloque");
 
 cargarListener();
 function cargarListener() {
-    //listaCursos.addEventListener("click", agregarCurso);
 
     carrito.addEventListener("click", eliminarCurso);
 }
@@ -63,7 +59,6 @@ function eliminarCurso(e) {
 
         const cursoID = cursoActual.querySelector("a").getAttribute("data-id");
 
-        // perros = perros.filter((perro) => perro.id !== cursoID);
         e.target.parentElement.parentElement.remove();
     }
 }
